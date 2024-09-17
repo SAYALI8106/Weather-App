@@ -158,4 +158,7 @@ body {
   .wrapper {
     font-size: 14px;
   }
+  .search-container {
+    grid-template-columns: 74% 26%;
+  }
 }
