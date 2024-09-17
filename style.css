@@ -154,11 +154,13 @@ body {
   letter-spacing: 0.1em;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 350px) {
   .wrapper {
     font-size: 14px;
+    max-width: max-content;
   }
   .search-container {
-    grid-template-columns: 74% 26%;
+    grid-template-columns:75%  30%;
+    gap: 0.25em;
   }
 }
